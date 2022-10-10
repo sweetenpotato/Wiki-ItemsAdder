@@ -2,62 +2,62 @@
 description: How to install the plugin
 ---
 
-# ⚙ First install
+# ⚙ 처음 설치 방법
 
 {% hint style="info" %}
-**You should follow** this first configuration **on** your **test server** on your PC to **avoid mistakes** and too many restarts.. players don't like when server is offline.\
-You can upload files to your real server after you finished here.
+당신은 **실수**와 많은 재시작을 피하기 위해 **반드시** 이 초기 설정을 당신의 **테스트 서버**에서 진행하는 것을 추천합니다. 플레이어들은 서버가 오프라인 상태인 것을 좋아하지 않습니다.\
+이 과정을 마무리 했다면, 당신은 파일들을 당신의 실제 서버에 업로드 할 수 있습니다.
 {% endhint %}
 
 {% hint style="danger" %}
-You **should** complete ALL installation steps. Not only the first.
+당신은 첫 번째뿐만 아니라 **반드시** 모든 설치 과정을 완료하여야 합니다.
 {% endhint %}
 
-## Step 1 - installing the plugin and APIs
+## 첫 번째 - 플러그인과 API들을 설치하세요
 
-* install [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
-* install [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
-* (optional) install **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17, 1.18](http://a.devs.beer/lightapi-new))
-* (optional) install [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) if you plan to create custom mobs in the future.
-* put **ItemsAdder.jar** file inside your plugins folder
-* start the server
-* let ItemsAdder finish loading **everything**
+- [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/) 설치
+- [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/) 설치
+- (선택) **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17, 1.18](http://a.devs.beer/lightapi-new)) 설치
+- (선택) [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) 커스텀 몹을 만들 계획이 있다면 설치하세요.
+- **ItemsAdder.jar** 파일을 당신의 plugins 폴더에 추가하세요.
+- 서버를 시작하세요.
+- ItemsAdder 플러그인이 **모든 것**을 불러오게 하세요.
 
-First step is done.\
-Now you must complete **step 2** to configure the resourcepack (don't worry it's not very hard).
+첫 과정이 마무리 되었습니다.\
+이제 당신은 리소스팩을 설정하기 위해 **두 번째** 과정을 꼭 마무리해야 합니다. (걱정하지 마세요, 그다지 어렵지 않습니다.)
 
-## Step 2 - resourcepack first installation
+## 두 번째 - 리소스팩 첫 설치
 
-#### Decide the resourcepack hosting method:
+#### 리소스팩을 호스팅할 방법을 결정하세요:
 
 {% content-ref url="plugin-usage/resourcepack-hosting/" %}
 [resourcepack-hosting](plugin-usage/resourcepack-hosting/)
 {% endcontent-ref %}
 
-## Optional steps
+## 선택 과정
 
-### Adding official ItemsAdder custom content
+### ItemsAdder 플러그인의 공식적인 커스텀 컨텐츠를 추가하세요
 
-![](.gitbook/assets/items\_showcase\_gif.apng)
+![](.gitbook/assets/items_showcase_gif.apng)
 
-**ItemsAdder** comes with a lot of custom content already created for you.\
-It's not automatically included into the downloaded plugin because some people might not want every item/feature automatically added into their server.
+**ItemsAdder**에는 이미 만들어진 많은 커스텀 컨텐츠가 포함되어 있습니다.\
+이 컨텐츠들은 플러그인을 다운로드 한다고 자동적으로 적용되지 않는데, 왜냐하면 몇몇 사람들이 모든 아이템이나 특성들이 자동적으로 그들의 서버에 추가되는 것을 원치 않을 수 있기 때문입니다.
 
-#### Default pack
+#### 기본 팩
 
 ![](<.gitbook/assets/image (47).png>)
 
-* download the latest version of the DefaultPack [here](https://github.com/ItemsAdder/DefaultPack/releases/latest)&#x20;
-* extract the content into the **ItemAdder** folder and overwrite the files if asked
-* run the `/iazip` command (and follow your [hosting method](plugin-usage/resourcepack-hosting/) if you're not using **self-host**).
+- [여기](https://github.com/ItemsAdder/DefaultPack/releases/latest)&#x20;에서 최신 버전의 기본 팩을 다운로드 하세요.
+- 해당 팩의 압축을 **ItemAdder** 폴더에 풀고 덮어쓰세요.
+- 서버 내에서 `/iazip` 커맨드를 실행하세요. (그리고 당신의 리소스팩을 **스스로 호스팅**하지 않는다면, [호스팅 방법](plugin-usage/resourcepack-hosting/) 절차를 따라주세요.)
 
-#### Other pack (optional)
+#### 추가 팩 (선택)
 
 ![](<.gitbook/assets/image (50).png>)
 
-* if you want you can download the OtherPacks file [here](https://github.com/ItemsAdder/OtherPacks/releases/latest) which adds even more content
-* extract the content into the **ItemAdder** folder and overwrite the files if asked
-* run the `/iazip` command (and follow your [hosting method](plugin-usage/resourcepack-hosting/) if you're not using **self-host**).
+- 당신이 만약 기본 팩 말고도 다른 팩을 원한다면 [여기](https://github.com/ItemsAdder/OtherPacks/releases/latest)에서 더 많은 컨텐츠를 추가하는 추가 팩을 다운로드 하세요.
+- 해당 팩의 압축을 **ItemAdder** 폴더에 풀고 덮어쓰세요.
+- 서버 내에서 `/iazip` 커맨드를 실행하세요. (그리고 당신의 리소스팩을 **스스로 호스팅**하지 않는다면, [호스팅 방법](plugin-usage/resourcepack-hosting/) 절차를 따라주세요.)
 
 If you're on 1.17 or lower you have to change the ores generation:
 
