@@ -59,23 +59,23 @@ description: How to install the plugin
 - 해당 팩의 압축을 **ItemAdder** 폴더에 풀고 덮어쓰세요.
 - 서버 내에서 `/iazip` 커맨드를 실행하세요. (그리고 당신의 리소스팩을 **스스로 호스팅**하지 않는다면, [호스팅 방법](plugin-usage/resourcepack-hosting/) 절차를 따라주세요.)
 
-If you're on 1.17 or lower you have to change the ores generation:
+만약에 당신의 서버가 1.17 버전이거나 그 이하인 경우 광물 생성 방식을 변경하여야 합니다:
 
-* Open these files and set `enabled: true`.\
+- 아래 파일들을 열고 `enabled: true`로 설정해 주세요.\
   `ItemsAdder\data\items_packs\iaalchemy\worlds_populators_old.yml`\
   `ItemsAdder\data\items_packs\iasurvival\ores\worlds_populators_old.yml`
-* Open these files and set `enabled: false`.\
+- 아래 파일들을 열고 `enabled: false`로 설정해 주세요.\
   `ItemsAdder\data\items_packs\iaalchemy\worlds_populators_1_18.yml`\
   `ItemsAdder\data\items_packs\iasurvival\ores\worlds_populators_1_18.yml`
 
-### Removing default items
+### 기본 아이템 삭제하기
 
 {% content-ref url="faq/removing-default-stuff/" %}
-[removing-default-stuff](faq/removing-default-stuff/)
+[기본 아이템 삭제하기](faq/removing-default-stuff/)
 {% endcontent-ref %}
 
-### Avoid glitched blocks
+### 블록의 텍스쳐 오류 해결
 
 {% content-ref url="faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md" %}
-[avoid-glitched-blocks.md](faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md)
+[블록의 텍스쳐 오류 해결](faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md)
 {% endcontent-ref %}
