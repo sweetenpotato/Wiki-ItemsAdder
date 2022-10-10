@@ -31,7 +31,7 @@ description: How to install the plugin
 #### 리소스팩을 호스팅할 방법을 결정하세요:
 
 {% content-ref url="plugin-usage/resourcepack-hosting/" %}
-[resourcepack-hosting](plugin-usage/resourcepack-hosting/)
+[리소스팩 호스팅하기](plugin-usage/resourcepack-hosting/)
 {% endcontent-ref %}
 
 ## 선택 과정
